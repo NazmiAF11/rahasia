@@ -1,9 +1,8 @@
 <?php
 session_start();
 $id = $_GET['id'];
-
-$db = new PDO("mysql:host=localhost;dbname=peduli_diri", 'root', '');
-$query = $db->query("SELECT * FROM catatan_perjalanan where id = $id ");
+$db = new PDO("mysql:host=localhost;dbname=pengaduan_masyarakat", 'root', '');
+$query = $db->query("SELECT * FROM pengaduan where id = $id ");
 $data = $query->fetch();
 //cek apakah session ada atau tidak
 if (isset($_SESSION['nama'])) {
@@ -17,7 +16,7 @@ if (isset($_SESSION['nama'])) {
 
     }
 </style>
-<title>Peduli Diri - Edit Data</title>
+<title>Pengaduan Masyarakat - Edit Data</title>
 <html>
 
 <body>

@@ -12,7 +12,7 @@ include "function/koneksi.php";
             <td>
                 <table align="center">
                 <tr>
-                        <td>id</td>
+                        <td>Id</td>
                         <td><input type="text" name="id"></td>
                     </tr>
                     <tr>
@@ -21,8 +21,8 @@ include "function/koneksi.php";
                     </tr>
                    
                     <tr>
-                        <td>Isi_Laporan </td>
-                        <td><input type="text" name="isilaporan"></td>
+                        <td>Isi Laporan </td>
+                        <td><input type="text" name="isi"></td>
                     </tr>
                     <tr>
                         <td>Status</td>

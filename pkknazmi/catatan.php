@@ -25,11 +25,11 @@ $query = $db->query("SELECT * FROM pengaduan");
         <td>
             <table align="center" border="2" width="90%" hieght="90%">
                 <tr>
-                    <th>ID</th>
-                    <th>Tanggal</th>
-                    <th>Waktu</th>
-                    <th>Tempat Yang Dikunjungi</th>
-                    <th>Suhu Tubuh</th>
+                    <th>id</th>
+                    <th>tanggal</th>
+                    <th>isi laporan</th>
+                    <th>status</th>
+                   
 
                 </tr>
 
@@ -37,10 +37,8 @@ $query = $db->query("SELECT * FROM pengaduan");
                     <tr>
                         <td><?= $data['id'] ?></td>
                         <td><?= $data['tanggal'] ?></td>
-                        <td><?= $data['waktu'] ?></td>
-                        <td><?= $data['lokasi'] ?></td>
-                        <td><?= $data['suhu_tubuh'] ?></td>
-
+                        <td><?= $data['isi laporan'] ?></td>
+                        <td><?= $data['status'] ?></td>
                         <td>
                             <a href="edit.php?id=<?= $data['id']; ?>" class="btn btn-info mb-3">Update</a>
                             <a href="delete.php?id=<?= $data['id']; ?>" class="btn btn-info mb-3">Delete</a>

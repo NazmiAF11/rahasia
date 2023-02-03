@@ -34,15 +34,15 @@ require_once('function/koneksi.php');
 					<div class="card-body">
 						<form class="form-login" method="POST" action="<?= '' ?>">
 							<label class="form-label">username</label>
-							<input type="NIK" name="NIK" class="form-input">
+							<input type="username" name="username" class="form-input">
 
 							<label class="form-label">password</label>
-							<input type="Nama" name="Nama" class="form-input">
+							<input type="password" name="password" class="form-input">
 							<div class="form-check">
 								<input class="form-check-input" type="checkbox" id="autoSizingCheck">
-								<label class="form-check-label" for="autoSizingCheck">
+								<!-- <label class="form-check-label" for="autoSizingCheck">
 									Remember me
-								</label>
+								</label> -->
 								<button type="submit" class="btn btn-login">Login</button>
 							</div>
 					</div>

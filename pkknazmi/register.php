@@ -34,14 +34,14 @@
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
                             </div>
-                            <form class="user" method="post" action="proses_register.php">
+                            <form class="home" method="post" action="proses_register.php">
                                 <div class="form-group">
                                     <input type="NIk" class="form-control form-control-user" id="exampleInputnama" placeholder="Masukan NIK Anda...">
                                 
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="nama_lengkap" class="form-control form-control-user" id="exampleInputnama" placeholder="Masukan Nama Lengkap Anda...">
+                                        <input type="nama_lengkap" class="form-control form-control-user" id="exampleInputnama" placeholder="Masukan Username Anda...">
                                     </div>
                                 
                                 <div class="form-group">
